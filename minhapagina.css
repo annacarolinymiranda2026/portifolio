@@ -11,7 +11,7 @@
 
 .secao {
   min-height: 100vh;
-  padding: 100px 20px; /* Importante para o conteúdo não ficar debaixo do menu */
+  padding: 100px 20px; 
   text-align: center;
 }
 
