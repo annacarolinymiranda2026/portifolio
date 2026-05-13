@@ -1,3 +1,12 @@
+
+.rodape {
+  grid-column: 1 / 3;
+  font-style: italic;
+  font-size: 13px;
+  padding: 0px 10px;
+  color :rgb(207, 69, 157);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,17 +14,50 @@
 }
 
 .pagina {
-  background-color: #fcbafa;
-  font-family: sans-serif;
+  font-family: 'Great Vibes', cursive;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #070707;
+  background: #fcbafa;
+  width: 100%;
 }
 
+
+/*seçoes*/
 .secao {
-  min-height: 100vh;
-  padding: 100px 20px; 
-  text-align: center;
+  height: 100vh;              
+  display: grid;          
+  align-content: center;  
+  padding: 40px 60px;  
+       
 }
 
+/* início é centralizado horizontalmente */
+#inicio {
+  text-align: center;          
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;    
+}
+
+/* nome */
 .nome {
-  color: rgb(238, 46, 142);
-  font-size: 50px;
+  font-family: 'Great Vibes', cursive;
+  color: rgb(238, 46, 142);                      
+  font-size: clamp(30px, 7vw, 80px);  
+  margin-bottom: 15px;                
+}
+
+/* título */
+.titulo {        
+  border-bottom: 2px solid  rgb(8, 48, 18);
+}
+
+
+.premio {
+  width: 100%;                
+  margin: 10px 0;            
+  padding: 20px;              
+  background: white;      
 }
